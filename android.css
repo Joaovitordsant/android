@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: bebas;
+    src: url('BebasNeue/BebasNeue-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: idroid;
+    src: url('Idroid/IDroid\ Bold.otf') format('opentype');
+}
+
+header {
+    background-image: linear-gradient(to bottom, #2fa866, #063d1e);
+    text-align: center;
+    padding-top: 40px;
+    min-height: 150px;
+}
+
+body {
+    background-color: #ebe5c5;
+}
+
+main {
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    min-width: 300px;
+    max-width: 1000px;
+    border-radius: 13px;
+    box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.253);
+}
+
+article {
+    margin: auto;
+    display: block;
+}
+
+article > p {
+    margin: 15px;
+    text-indent: 30px;
+    line-height: 2em;
+    font-size: 20px;
+}
+
+header > h1 {
+  color: white;  
+  font-weight: normal;
+  font-size: 65px;
+  margin-bottom: 20px;
+  font-family: bebas;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.473);
+}
+
+header >  p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background-image: linear-gradient(to bottom, #2fa866);
+    text-align: left;
+    
+}
+
+nav,  a {
+    color: aliceblue;
+    margin-top: 47px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'idroid';
+}
+
+h2 {
+    color: #1a5c37;
+    background-image: linear-gradient(to right, #83e1ad, transparent);
+    font-family: 'idroid';
+}
+
+.dan {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.img1 {
+    width: 100%;
+}
+
+.img2 {
+    width: 100%;
+}
+
+.img3 {
+    max-width: 320px;
+    margin: auto;
+    display: block;
+}
+
+div.video {
+    background-color: rgb(9, 39, 9);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 58%;
+    position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+.link {
+    color: #063d1e;
+    background-color: #83e1ad;
+    font-weight: bold;
+}
+
+.home:hover {
+    color: #063d1e;
+    background-color: #83e1ad;
+    border-radius: 4px;
+}
+
+.Not:hover {
+    color: #063d1e;
+    background-color: #83e1ad;
+    border-radius: 4px;
+}
+
+.con:hover {
+    color: #063d1e;
+    background-color: #83e1ad;
+    border-radius: 4px;
+}
+
+
